@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE configuration PUBLIC
+"-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<typeAliases>
+	<!-- 자료형 줄임말 정의할때 사용! -->
+
+		<typeAlias type="com.kh.finalPro.spot.model.vo.Spot" alias="Spot" /> 
+	</typeAliases>
+<!--사이내용 삭제함  -->
+	<mappers>
+	<!-- 등록안해놓으면 에러남 / Dao와 연결안됨 -->
+
+		<mapper resource="mappers/spot-mapper.xml" />
+	</mappers>
+</configuration>
