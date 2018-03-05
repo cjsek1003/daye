@@ -42,7 +42,7 @@
                      <a class="active-menu animsition-link" href="about.jsp">Home</a>
                   </li>
                   <li>
-                     <a href="#">portfolio</a>
+                     <a href="#">Nation</a>
                      <ul class="submenu-back">
                         <li> 
                            <a href="work.html" class="animsition-link">Featured fourths</a>
@@ -62,10 +62,10 @@
                      </ul>
                   </li>
                   <li> 
-                     <a href="blog.html" class="animsition-link">jurnal</a>
+                     <a href="slist.do" class="animsition-link">Spot</a>
                   </li>
                   <li>
-                     <a href="#">hello</a>
+                     <a href="#">Notice</a>
                      <ul class="submenu-back">
                         <li> 
                            <a href="contact.html" class="animsition-link">default</a>
@@ -76,7 +76,7 @@
                      </ul>
                   </li>
                   <li>
-                     <a href="shortcodes.html" class="animsition-link">shortcodes</a>
+                     <a href="shortcodes.html" class="animsition-link">Q&A</a>
                   </li>
                </ul>
             </div>
