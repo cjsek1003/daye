@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -45,19 +45,19 @@
                      <a href="#">Nation</a>
                      <ul class="submenu-back">
                         <li> 
-                           <a href="work.html" class="animsition-link">Featured fourths</a>
+                           <a href="work.html" class="animsition-link">일본</a>
                         </li>
                         <li>
-                           <a href="work1.html" class="animsition-link">No Spaced fourths</a>
+                           <a href="work1.html" class="animsition-link">미국</a>
                         </li>
                         <li>
-                           <a href="work2.html" class="animsition-link">Classic Grid</a>
+                           <a href="work2.html" class="animsition-link">중국</a>
                         </li>
                         <li>
-                           <a href="work3.html" class="animsition-link">Two Halfs</a>
+                           <a href="work3.html" class="animsition-link">홍콩</a>
                         </li>
                         <li>
-                           <a href="work4.html" class="animsition-link">Lightbox Gallery</a>
+                           <a href="work4.html" class="animsition-link">베트남</a>
                         </li>
                      </ul>
                   </li>
@@ -65,18 +65,21 @@
                      <a href="slist.do" class="animsition-link">Spot</a>
                   </li>
                   <li>
-                     <a href="#">Notice</a>
+                     <a href="slist.do">Review</a>
                      <ul class="submenu-back">
                         <li> 
-                           <a href="contact.html" class="animsition-link">default</a>
+                           <a href="contact.html" class="animsition-link">Review</a>
                         </li>
                         <li>
-                           <a href="contact1.html" class="animsition-link">minimal</a>
+                           <a href="contact1.html" class="animsition-link">Feedback</a>
                         </li>
                      </ul>
                   </li>
                   <li>
-                     <a href="shortcodes.html" class="animsition-link">Q&A</a>
+                     <a href="slist.do" class="animsition-link">Notice</a>
+                  </li>
+                  <li>
+                     <a href="slist.do" class="animsition-link">Q&A</a>
                   </li>
                </ul>
             </div>

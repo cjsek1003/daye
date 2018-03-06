@@ -17,6 +17,6 @@ public class SpotController {
 	public String spotList(Model model) {
 		
 		model.addAttribute("spotList", spotService.spotList());
-		return "spot/spotListView";
+		return "spot/spotListView2";
 	}
 }
