@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -45,19 +45,19 @@
                      <a href="#">Nation</a>
                      <ul class="submenu-back">
                         <li> 
-                           <a href="work.html" class="animsition-link">일본</a>
+                           <a href="work.html" class="animsition-link">일본　　</a>
                         </li>
                         <li>
-                           <a href="work1.html" class="animsition-link">미국</a>
+                           <a href="work1.html" class="animsition-link">미국　　</a>
                         </li>
                         <li>
-                           <a href="work2.html" class="animsition-link">중국</a>
+                           <a href="work2.html" class="animsition-link">중국　　</a>
                         </li>
                         <li>
-                           <a href="work3.html" class="animsition-link">홍콩</a>
+                           <a href="work3.html" class="animsition-link">홍콩　　</a>
                         </li>
                         <li>
-                           <a href="work4.html" class="animsition-link">베트남</a>
+                           <a href="work4.html" class="animsition-link">베트남　　</a>
                         </li>
                      </ul>
                   </li>
