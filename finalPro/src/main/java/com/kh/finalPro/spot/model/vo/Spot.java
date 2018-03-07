@@ -5,7 +5,8 @@ public class Spot implements java.io.Serializable{
 	private static final long serialVersionUID = 123L;
 	
 	private int s_no;
-	private String s_nation;
+	private String s_nation1;
+	private String s_nation2;
 	private String s_title;
 	private String s_content;
 	private String s_original_filename;
@@ -16,14 +17,14 @@ public class Spot implements java.io.Serializable{
 	private int s_like_count;
 	
 	public Spot() {}
-	
 
-
-	public Spot(int s_no, String s_nation, String s_title, String s_content, String s_original_filename,
-			String s_rename_filename, String s_address, String s_writer, String s_phone, int s_like_count) {
+	public Spot(int s_no, String s_nation1, String s_nation2, String s_title, String s_content,
+			String s_original_filename, String s_rename_filename, String s_address, String s_writer, String s_phone,
+			int s_like_count) {
 		super();
 		this.s_no = s_no;
-		this.s_nation = s_nation;
+		this.s_nation1 = s_nation1;
+		this.s_nation2 = s_nation2;
 		this.s_title = s_title;
 		this.s_content = s_content;
 		this.s_original_filename = s_original_filename;
@@ -34,8 +35,6 @@ public class Spot implements java.io.Serializable{
 		this.s_like_count = s_like_count;
 	}
 
-
-
 	public int getS_no() {
 		return s_no;
 	}
@@ -44,12 +43,20 @@ public class Spot implements java.io.Serializable{
 		this.s_no = s_no;
 	}
 
-	public String getS_nation() {
-		return s_nation;
+	public String getS_nation1() {
+		return s_nation1;
 	}
 
-	public void setS_nation(String s_nation) {
-		this.s_nation = s_nation;
+	public void setS_nation1(String s_nation1) {
+		this.s_nation1 = s_nation1;
+	}
+
+	public String getS_nation2() {
+		return s_nation2;
+	}
+
+	public void setS_nation2(String s_nation2) {
+		this.s_nation2 = s_nation2;
 	}
 
 	public String getS_title() {
@@ -116,15 +123,14 @@ public class Spot implements java.io.Serializable{
 		this.s_like_count = s_like_count;
 	}
 
-
-
 	@Override
 	public String toString() {
-		return "Spot [s_no=" + s_no + ", s_nation=" + s_nation + ", s_title=" + s_title + ", s_content=" + s_content
-				+ ", s_original_filename=" + s_original_filename + ", s_rename_filename=" + s_rename_filename
-				+ ", s_address=" + s_address + ", s_writer=" + s_writer + ", s_phone=" + s_phone + ", s_like_count="
-				+ s_like_count + "]";
+		return "Spot [s_no=" + s_no + ", s_nation1=" + s_nation1 + ", s_nation2=" + s_nation2 + ", s_title=" + s_title
+				+ ", s_content=" + s_content + ", s_original_filename=" + s_original_filename + ", s_rename_filename="
+				+ s_rename_filename + ", s_address=" + s_address + ", s_writer=" + s_writer + ", s_phone=" + s_phone
+				+ ", s_like_count=" + s_like_count + "]";
 	}
 	
 	
-} 
+
+}

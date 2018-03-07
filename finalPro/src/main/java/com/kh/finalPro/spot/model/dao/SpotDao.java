@@ -17,4 +17,9 @@ public class SpotDao {
 	public List<Spot> spotList(){
 		return mybatis.selectList("spotMapper.selectSpotList");
 	}
+
+	public List<Spot> nationList() {
+		// TODO Auto-generated method stub
+		return mybatis.selectList("spotMapper.selectNationList");
+	}
 }

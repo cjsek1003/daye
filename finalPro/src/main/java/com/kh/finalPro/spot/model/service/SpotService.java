@@ -6,4 +6,6 @@ import com.kh.finalPro.spot.model.vo.Spot;
 
 public interface SpotService {
 	List<Spot> spotList() ;
+
+	List<Spot> nationList();
 }

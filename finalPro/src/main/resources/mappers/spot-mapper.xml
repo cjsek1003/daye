@@ -7,7 +7,8 @@
 
 <resultMap id="spotResultMap" type="Spot">
   		<result property="s_no" column="s_no"/>
-  		<result property="s_nation" column="s_nation"/>
+  		<result property="s_nation1" column="s_nation1"/>
+  		<result property="s_nation2" column="s_nation2"/>
   		<result property="s_title" column="s_title"/>
   		<result property="s_content" column="s_content"/>
   		<result property="s_original_filename" column="s_original_filename"/>
@@ -23,6 +24,12 @@
 	<select id="selectSpotList" resultMap="spotResultMap">
 		<![CDATA[
 		select * from spot order by s_no desc
+			]]>
+	</select>
+	
+		<select id="selectNationList" resultMap="spotResultMap">
+		<![CDATA[
+		select distinct s_nation1 from spot order by  s_nation1 asc
 			]]>
 	</select>
 

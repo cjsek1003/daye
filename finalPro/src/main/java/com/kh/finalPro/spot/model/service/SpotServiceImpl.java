@@ -18,6 +18,11 @@ public class SpotServiceImpl implements SpotService {
 		// TODO Auto-generated method stub
 		return spotDao.spotList();
 	}
+	@Override
+	public List<Spot> nationList() {
+		// TODO Auto-generated method stub
+		return spotDao.nationList();
+	}
 	
 	
 }
