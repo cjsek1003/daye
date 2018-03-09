@@ -64,18 +64,22 @@ $.ajax({
 	<div id="menu-wrap" class="menu-back cbp-af-header">
 		<div class="container">
 			<div class="sixteen columns">
+			<div id = "leftDiv" style=" float: left; width: 50%;">
 				<a href="about.jsp" class="title">TravleStargram</a>
+			</div>
+			<div id = "rightDiv" style=" float:right; align :right; padding-right: 215px">
 				<c:if test="${empty sessionScope.loginUser }">
-               <ul class="slimmenu">
+
                	<a href="loginForm.do" class="animsition-link" style="cursor:pointer;">로그인</a>&nbsp;
-               	<a href="enrollForm.do" class="animsition-link" style="cursor:pointer;">회원가입</a>
-               </ul>
+               	<a href="enrollForm.do" class="animsition-link" style="cursor:pointer;">회원가입</a>     
                </c:if>
+					</div>
+             </div>
                <c:if test="${!empty sessionScope.loginUser }">
-               <ul class="slimmenu">
+
                	${loginUser.member_name } 님 &nbsp;
                	<a href="logout.do">로그아웃</a>
-               	</ul>
+   
                </c:if>
 				<ul class="slimmenu">
 
@@ -104,6 +108,9 @@ $.ajax({
 						</ul></li>
 					<li><a href="slist.do" class="animsition-link">Notice</a></li>
 					<li><a href="slist.do" class="animsition-link">Q&A</a></li>
+					<li>
+                     <a href="rlist.do" class="animsition-link">Review</a>
+                  </li>
 				</ul>
 			</div>
 		</div>

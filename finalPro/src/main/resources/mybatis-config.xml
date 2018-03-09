@@ -5,10 +5,10 @@
 <configuration>
 	<typeAliases>
 		<!-- 자료형 줄임말 정의할때 사용! -->
-		<typeAlias type="com.kh.finalPro.notice.model.vo.Notice"
-			alias="Notice" />
+		<typeAlias type="com.kh.finalPro.notice.model.vo.Notice"	alias="Notice" />
 		<typeAlias type="com.kh.finalPro.spot.model.vo.Spot" alias="Spot" />
 		<typeAlias type="com.kh.finalPro.member.model.vo.Member" alias="Member" />
+		<typeAlias type="com.kh.finalPro.review.model.vo.Review" alias="Review" /> 
 	</typeAliases>
 	<!--사이내용 삭제함 -->
 	<mappers>
@@ -16,5 +16,6 @@
 		<mapper resource="mappers/noitce-mapper.xml" />
 		<mapper resource="mappers/spot-mapper.xml" />
 		<mapper resource="mappers/member-mapper.xml" />
+		<mapper resource="mappers/review-mapper.xml" />
 	</mappers>
 </configuration>
