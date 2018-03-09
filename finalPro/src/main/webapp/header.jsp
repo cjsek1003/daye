@@ -65,6 +65,18 @@ $.ajax({
 		<div class="container">
 			<div class="sixteen columns">
 				<a href="about.jsp" class="title">TravleStargram</a>
+				<c:if test="${empty sessionScope.loginUser }">
+               <ul class="slimmenu">
+               	<a href="loginForm.do" class="animsition-link" style="cursor:pointer;">로그인</a>&nbsp;
+               	<a href="enrollForm.do" class="animsition-link" style="cursor:pointer;">회원가입</a>
+               </ul>
+               </c:if>
+               <c:if test="${!empty sessionScope.loginUser }">
+               <ul class="slimmenu">
+               	${loginUser.member_name } 님 &nbsp;
+               	<a href="logout.do">로그아웃</a>
+               	</ul>
+               </c:if>
 				<ul class="slimmenu">
 
 					<li><a class="active-menu animsition-link" href="about.jsp">Home</a></li>
